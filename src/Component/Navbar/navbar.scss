@@ -1,0 +1,41 @@
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 3rem;
+  h1 {
+    font-size: 25px;
+  }
+  .middle {
+    display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+  }
+  .search-box {
+    background-color: #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0 4rem;
+    img {
+      margin-right: 10px;
+    }
+    div {
+      display: flex;
+      font-size: 10px;
+    }
+  }
+  .filter {
+    margin-right: 5rem;
+  }
+  .right {
+    img {
+      margin-left: 20px;
+      height: 40px;
+    }
+  }
+}

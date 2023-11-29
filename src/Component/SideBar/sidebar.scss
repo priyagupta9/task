@@ -1,0 +1,47 @@
+.sidebar {
+  width: 312px;
+  height: 1230px;
+  border-radius: 0px 40px 0px 0px;
+  background: #194895;
+  height: 100vh;
+  padding: 2rem 1.2rem;
+  color: white;
+
+  .sidebar__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sidebar__links {
+    margin-top: 2rem;
+    div {
+      display: flex;
+      align-items: center;
+      font-size: 15px;
+      padding: 0.5rem;
+      position: relative;
+      h2 {
+        cursor: pointer;
+      }
+      .white-bg {
+        position: absolute;
+        right: -2rem;
+        background: white;
+        border-radius: 20px 0px 0px 20px;
+        padding: 0.7rem;
+        width: 230px;
+        color: black;
+        transition: all 0.3s ease-in-out;
+      }
+      img {
+        margin-right: 40px;
+      }
+      .addt {
+        cursor: pointer;
+      }
+      .hideText {
+        display: none;
+      }
+    }
+  }
+}
